@@ -343,8 +343,6 @@ public class consumer01 {
 
 ###### 3.1 工作队列模式
 
-![image-20200912222555260](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200912222555260.png)
-
 工作队列与入门程序相比，多了一个消费端，两个消费端共同消费同一个队列中的消息，它的特点如下：
 
 一个生产者将消息发给一个队列
@@ -358,8 +356,6 @@ rabbit采用轮询的方式将消息平均发送给消费者
 
 
 ###### 3.2 发布-订阅模式
-
-![image-20200912223401068](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200912223401068.png)
 
 1.一个生产者将消息发送给交换机
 
