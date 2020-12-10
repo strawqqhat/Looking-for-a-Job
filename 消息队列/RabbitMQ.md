@@ -373,8 +373,6 @@ rabbit采用轮询的方式将消息平均发送给消费者
 
 ###### 3.3 Routing路由模式
 
-![image-20200913103722331](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200913103722331.png)
-
 1.一个交换机绑定多个队列，每个队列设置routingkey，并且一个队列可以设置多个routingkey
 
 2.每个消费者监听自己的队列
@@ -384,8 +382,6 @@ rabbit采用轮询的方式将消息平均发送给消费者
 
 
 ###### 3.4 Topics通配符工作模式
-
-![image-20200913110738657](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200913110738657.png)
 
 1.一个交换机可以绑定多个队列，每个队列可以设置一个或多个带通配符的routingKey
 
@@ -400,8 +396,6 @@ header模式与routing不同的地方在于，header模式取消routingKey，使
 
 
 ###### 4.6 RPC
-
-![image-20200913154228570](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200913154228570.png)
 
 RPC即客户端远程调用服务端的方法，使用MQ可以实现RPC的异步调用，基于Direct交换机实现，流程如下：
 
